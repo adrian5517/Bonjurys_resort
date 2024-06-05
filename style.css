@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.28);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    
+    
+    
+}
+
+
+.nav-section{
+    font-size: 17px;
+    order: 2;
+    padding: 1.5rem 40px;
+    
+    
+}
+.nav-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-section li{
+    list-style: none;
+}
+
+
+.nav-section a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 600;
+    color: #333;
+    
+    
+}
+.nav-section a:hover{
+    color: #164C95;
+    
+}
+
+
+.logo-section{
+    display: flex;
+    order: 1;
+    font-size: 20px;
+}
+.logo-section h3{
+    padding-top: 1.5rem;
+    font-family: "Galada", cursive;
+    color: #164C95;
+}
+.logo-section span{
+    color: #f8b65a;
+}
+
+
+.login-section{
+    order: 3;
+    padding: 1.5rem;
+    display: flex;
+}
+.login-section>button{
+    margin-right: 5px;
+
+}
+.login-section i , button{
+    margin-right: 10px;
+}
+.login-section i{
+    margin-top: 1.5px;
+    font-size: 27px;
+    color: #164C95;
+    cursor: pointer;
+}
+.login-section button{
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background: #f8b65a;
+}
+.login-section button a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.login-section button:hover{
+    background: #164C95;
+    
+}
+.login-section a:hover{
+    color: #fefefe;
+}
+.carousel{
+    padding-top: 140px;
+    padding-left: 0 50px;
+    position: relative;
+}
+.carousel-item{
+    border-radius: 40px;
+    
+}
+.carousel img{
+    width: 100%;
+    border-radius: 40px;
+}
+.text-container{
+    top: 35%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 20px 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    grid-template-rows: 3fr ;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    
+}
+.text-section{
+    top: 10px;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1/2;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+.text-section h2{
+    font-size: 60px;
+    font-family: "Lobster", sans-serif;
+    color: #fefefe;
+    padding: 20px;
+}
+.text-section p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.text-section button{
+    width: 10em;
+    height: 3em;
+    border: transparent;
+    border-radius: 13px;
+    background: #f8b65a;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #164C95;
+    font-weight: 600;
+    
+    
+}
+
+.text-section button:hover{
+    background: #164C95;
+    color: #f8b65a;
+    
+}
+.room-container{
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.room-section{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin: 40px;
+    padding: 10px 30px;
+    font-family: "Poppins", sans-serif;
+    gap: 0px 30px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.room-section .room-1{
+    grid-column: 1;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 20px;
+
+   
+}
+.room-section .room-2{
+    grid-column: 2;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 20px;
+}
+
+.room-section .room-3{
+    grid-column: 3;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 20px;
+}
+.room-section #room{
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    text-align: center;
+}
+.room-section #room ,img{
+    border-radius: 13px;
+    padding-bottom: 10px;
+    
+    
+
+    
+    
+}
+
+
+
